@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0 auto;
+  padding: 2em 2em;
+  max-width: 70%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: end;
+  gap: 1em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #355355;
+}
+
+img {
+  width: 5em;
+  border-radius: 10%;
+}
+
+button {
+  padding: 1em 2em;
+  border-radius: 10%;
+  font-weight: 700;
+  color: #355355;
+  background: none;
+  border: #355355 solid 2px;
+  cursor: pointer;
+}
