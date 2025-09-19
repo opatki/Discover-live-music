@@ -26,7 +26,7 @@ async function renderShows() {
 
 
             const ticketPrice = document.createElement('p')
-            ticketPrice.textContent = "Price: " + show.ticketPrice
+            ticketPrice.textContent = "Price:" + show.ticketPrice
             bottomContainer.appendChild(ticketPrice)
 
             const link = document.createElement('a')

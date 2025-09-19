@@ -1,11 +1,15 @@
-body {
-  margin: 0;
+:root {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
+/* Header Styles */
 header {
   margin: 0 auto;
   padding: 2em 2em;
-  max-width: 70%;
+  max-width: 1050px;
+  margin-bottom: 1em;
 }
 
 .header-container {
@@ -35,4 +39,80 @@ button {
   background: none;
   border: #355355 solid 2px;
   cursor: pointer;
+}
+
+/* All shows styles */
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #355355;
+    border-radius: 0.3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.card img {
+    height: 100%;
+}
+
+.top-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.bottom-container {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.bottom-container h3 {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.bottom-container p {
+    margin: 4px;
+}
+
+.bottom-container a {
+    color: rgb(228, 16, 133);
+    text-decoration: none;
+}
+
+/* Show details styles */
+.show-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.image-container {
+    width: 35em;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 80%;
+    
+}
+
+.show-details {
+    margin: 0;
 }
