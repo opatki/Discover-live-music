@@ -49,7 +49,13 @@ async function renderShows() {
     }
 }
 
-renderShows()
+const requestedUrl = window.location.href.split('/').pop()
+if (requestedUrl && (isNaN(parseInt(requestedUrl)) || (parseInt(requestedUrl) < 1 || parseInt(requestedUrl) > 6))) {
+    window.location.href = '../404.html'
+} else {
+    renderShows()
+}
+
 
 async function renderShow() {
     const requestedID = parseInt(window.location.href.split('/').pop())
