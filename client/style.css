@@ -110,7 +110,7 @@ main {
 
 .image-container img {
     width: 80%;
-    
+    border: #355355 solid 3px;
 }
 
 .show-details {
