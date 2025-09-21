@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 - [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
 - [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
   - [X] **Each detail view should be a unique endpoint, such as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
 - [X] **The web app serves an appropriate 404 page when no matching route is defined**
 - [X] **The web app is styled using Picocss**
 
