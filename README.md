@@ -34,10 +34,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/cr6cH1n' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](StageScout.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
+GIF created with ...  EzGif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -45,11 +45,11 @@ GIF created with ...  Add GIF tool here
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+Trying to work with picocss for the first time was a challenge
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2025] [Om Patki]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
