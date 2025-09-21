@@ -111,18 +111,17 @@ main {
 .show-info {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: start;
+    gap: 3em;
 }
 
 .image-container {
-    width: 35em;
     display: flex;
     justify-content: center;
 }
 
 .image-container img {
-    width: 80%;
+    width: 600px;
     border: #F2EDD9 solid 3px;
 }
 
